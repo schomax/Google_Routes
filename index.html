@@ -64,43 +64,40 @@
 	    </div>
 	   </div>
 
-		<div id="mapwrapper" class="container">
-			<div class="row">
-				<div id="results" class="col-lg-3">
-					<h4>Car results</h4>
-					<ul id="resultsCar"></ul>
-					<input class="btn btn-default" type="button" value="Route" onclick="route(1)">
-				</div>
-				<div id="results" class="col-lg-3">
-					<h4>Bike results</h4>
-					<ul id="resultsBike"></ul>
-					 <input class="btn btn-default" type="button" value="Route" onclick="route(2)">
-				</div>
-				<div id="results" class="col-lg-3">
-					<h4>Walk results</h4>
-					<ul id="resultsWalk"></ul>
-					<input class="btn btn-default" type="button" value="Route" onclick="route(3)">
-				</div>
-				<div id="results" class="col-lg-3">
-					<h4>Public transportation results</h4>
-					<ul id="resultsPT"></ul>
-					<input class="btn btn-default" type="button" value="Route" onclick="route(4)">
-				</div>
+	<!-- Routes for transportation types --> 
+	<div id="mapwrapper" class="container">
+		<div class="row">
+			<div id="results" class="col-lg-3">
+				<h4>Car results</h4>
+				<ul id="resultsCar"></ul>
+				<input class="btn btn-default" type="button" value="Route" onclick="route(1)">
 			</div>
-			
-			
-			
-			<div class="container">
-				<br />
-			<div id="map-canvas" style="width:100%;height:350px;" class="row"></div>
+			<div id="results" class="col-lg-3">
+				<h4>Bike results</h4>
+				<ul id="resultsBike"></ul>
+				 <input class="btn btn-default" type="button" value="Route" onclick="route(2)">
 			</div>
-			
-			<hr>
-			
-        <!-- <footer>
-          <p>&copy; TraffiCon &#45; Traffic Consultants GmbH 2013</p>
-        </footer> -->
+			<div id="results" class="col-lg-3">
+				<h4>Walk results</h4>
+				<ul id="resultsWalk"></ul>
+				<input class="btn btn-default" type="button" value="Route" onclick="route(3)">
+			</div>
+			<div id="results" class="col-lg-3">
+				<h4>Public transportation results</h4>
+				<ul id="resultsPT"></ul>
+				<input class="btn btn-default" type="button" value="Route" onclick="route(4)">
+			</div>
 		</div>
+		
+		
+		<!-- Display Map -->
+		<div class="container">
+			<br />
+		<div id="map-canvas" style="width:100%;height:350px;" class="row"></div>
+		</div>
+		
+		<hr>
+	</div>
 	</body>
 </html>
 
