@@ -8,4 +8,5 @@ Furthermore, it uses Google Maps Places-Autocomplete function and Geocoder to fi
 
 For the design, Twitter-Bootstrap is used. 
 
-**Live Demo** http://schomax.github.io/Google_Routes
+**Live Demo** 
+http://schomax.github.io/Google_Routes
